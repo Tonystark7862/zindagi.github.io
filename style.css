@@ -1,0 +1,397 @@
+/*css reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+ background-color: rgb(255, 214, 79);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+/* navigation bar */
+#logo{
+    margin: -9px 20px;
+
+}
+#logo img{
+    margin: 19px 15px;
+    height: 80px;
+}
+/* list styling */
+#navbar::before{
+    content: "";
+    background-color: blanchedalmond;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+}
+#navbar ul{
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    opacity: 0.9;
+    border: aqua;
+}
+#navbar ul li{
+    
+    display: flex;
+    color: black;
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: rgb(128, 125, 131);
+    display: block;
+    padding: 32px 77px;
+    border-radius: 32px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    text-decoration: underline ;
+    font-size: 1.87rem;
+    color: hotpink;
+    background-color: rgb(210, 243, 210);
+}
+/*home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home::before{
+        content: "";
+        background: url('/images/pexels-godson-bright-962464.jpg') no-repeat center center/cover ;
+        position: absolute;
+        height: 100%;
+        width:100%;
+        z-index: -1;
+        
+}
+#h1{
+    font-family: 'Lobster', cursive;
+
+    font-size: 3rem;
+    padding: 12px;
+    margin: 12px;
+    color:rgb(248, 96, 96);
+    
+    
+}
+#h1:hover{
+    font-size: 3.5rem;
+    color: rgb(57, 60, 247);
+}
+#h2{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    margin-top: 32px;
+    color: rgb(109, 94, 241);
+      }
+      #h2:hover{
+          font-size: 3rem;
+          color:rgb(255, 47, 255);
+      }
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 14px;
+    border: 3px solid white;
+    color: white;
+    background-color: black;
+    margin: 28px 8px -47px -14px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blanchedalmond;
+    color: black;
+}     
+.mid{
+    display: block;
+    margin:302px 39px 27px 494px;
+    
+} 
+.mid h1{
+    font-size: 2.8rem;
+    font-family: 'Lobster', cursive;
+    color: blue;
+
+}
+.mid h1:hover{
+    font-size: 3.2rem;
+    color: crimson;
+}
+.offer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+#item1{
+    background-image: url('/images/d15528a59ce451cc14c3ca29e5dbcd5f.Golden-Temple-Amritsar-Punjab.jpg');
+    background-size: 100% 100%;
+    border: 2px solid black;
+    width: 23%;
+    height: 35%;
+    margin: 14px 81px -3px 52px;
+    padding: 134px 98px;
+    animation: slider 20s infinite linear;
+    border-radius: 5px;
+    box-shadow: 7px 13px 26px 20px whitesmoke
+    }
+    @keyframes slider{
+        0%{
+            background: url('/images/4df8e81b934e450b9827e060fef2bfdc.Amarnath-Temple-Jammu-and-Kashmir.jpg');
+        }
+        20%{
+             background: url('/images/6d3a42804f7d7db641039534dd1284bc.Hemkund-Sahib-Yatra.jpg');
+        }
+        40%{
+           background: url('/images/9b202a59cf5d01c52c1fd18dd1233b24.main-ghat-at-varanasi-india.jpg');
+        }
+        60%{
+            background: url('/images/d15528a59ce451cc14c3ca29e5dbcd5f.Golden-Temple-Amritsar-Punjab.jpg');
+        }
+        80%{
+           background: url('/images/b37436de7ec5828b6006cc05bafa3ed7.Sun-Temple-in-Konark-Odisha.jpg');
+        }
+}
+#head1{
+    margin: 17px 2px 14px 25px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 8px 0px;
+    display: block;
+}
+.btn2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 6px;
+    border: 3px solid white;
+    color: white;
+    background-color: black;
+    margin: 17px 9px -43px 59px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
+.btn2:hover{
+    background-color: blanchedalmond;
+    color: black;
+
+}
+#item2{
+    
+    background-image: url('/images/acj-2211-most-romantic-honeymoon-destinations-in-india-1.jpg');
+    background-size: 100% 100%;
+    border: 2px solid black;
+    width: 23%;
+    height: 35%;
+    margin: 14px 81px -3px 52px;
+    padding: 134px 98px;
+    animation: slider2 20s infinite linear;
+    border-radius: 5px;
+    box-shadow: 7px 13px 26px 20px whitesmoke
+    }
+    @keyframes slider2{
+        0%{
+            background: url('/images/acj-2211-most-romantic-honeymoon-destinations-in-india-1.jpg');
+        }
+        20%{
+             background: url('/images/acj-2211-most-romantic-honeymoon-destinations-in-india-21.jpg');
+        }
+        40%{
+           background: url('/images/acj-2211-most-romantic-honeymoon-destinations-in-india-28.jpg');
+        }
+        60%{
+            background: url('/images/acj-2211-most-romantic-honeymoon-destinations-in-india.jpg');
+        }
+        80%{
+           background: url('/images/acj-2211-most-romantic-honeymoon-destinations-in-india-26.jpg');
+        }
+
+}
+#head2{
+    margin: 17px 2px 14px 25px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 8px 0px;
+    display: block;
+}
+#item3{
+    background-image: url('/images/40019e69f85ad974d73cd62c322c270c.Delhi-NCR.jpg');
+    background-size: 100% 100%;
+    border: 2px solid black;
+    width: 23%;
+    height: 35%;
+    margin: 14px 81px -3px 52px;
+    padding: 134px 98px;
+    animation: slider3 20s infinite linear;
+    border-radius: 5px;
+    box-shadow: 7px 13px 26px 20px whitesmoke
+    }
+    @keyframes slider3{
+        0%{
+            background: url('/images/40019e69f85ad974d73cd62c322c270c.Delhi-NCR.jpg');
+        }
+        20%{
+             background: url('/images/76533ef5492b8c37747760f424e84669.Agra.jpg');
+        }
+        40%{
+           background: url('/images/b801681fd4b26650bc6244a3789bc3ec.Jaipur.jpg');
+        }
+        60%{
+            background: url('/images/06ea2bbe41cf1377fd6bf0ce9335bbb9.chittorgarh.jpg');
+        }
+        80%{
+           background: url('/images/dab0bf324aee051259ee81ce85bd3d25.Bannerghatta-Biological-Park.jpg');
+        }
+}
+#head3{
+    margin: 17px 2px 14px 25px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 8px 0px;
+    display: block;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    margin: 35px 102px 30px 57px;
+    padding: 28px 25px;
+    background-color: black;
+}
+#part1{
+    
+    font-size: 1.3rem;
+    font-family: 'Otomanopee One', sans-serif;
+    color: cornsilk;
+}
+#part1 h1{
+    color:orange;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+    margin: 23px 14px 15px 258px;
+
+}
+#part2{
+    border: 2px solid black;
+    margin-left: 10px;
+    
+}
+#part2 img{
+    margin: 6px 2px 2px 60px;
+    height: 414px;
+    width: 645px;
+    
+
+}
+.thing h1{
+    display: block;
+    margin: 54px 31px 46px 18px;
+    color: rgb(255, 47, 255);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.theme{
+    background-color: rgb(250, 123, 123);
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+}
+.theme1{
+    padding: 65px 110px;
+    
+    margin: 20px 64px 9px 2px; 
+
+}
+.theme img{
+    width: 83px;
+    height: 98px;
+    cursor: pointer;
+}
+.theme img:hover{
+    filter: invert(100%);
+    width: 98px;
+    height: 105px;
+}
+.theme h2{
+    font-size: 1.8rem;
+    font-family: 'Otomanopee One', sans-serif;
+    margin-top: 5px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.last1{
+    
+    display: flex;
+    flex-direction: row;
+}
+.last li{
+    cursor: pointer;
+    display: block;
+    list-style: none;
+    padding: 31px 100px;
+    margin: 13px -1px 13px 6px;
+}
+.last li:hover{
+    border: 3px solid  rgb(250, 123, 123);
+    border-radius: 400px;
+    background-color:  rgb(250, 123, 123);
+}
+
+.last1 li img{
+    width: 57px;
+    height: 59px;
+}
+.last2{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 132px;
+    margin: 15px 21px 2px 2px;
+}
+.s4{
+    color: orange;
+}
+.bottom{
+    background-color:  rgb(250, 123, 123);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.bot img{
+    width: 57px;
+    height: 59px;
+
+}
+.bot{
+    padding: 15px 87px;
+}
+.bot p{
+    font-family: 'Lobster', cursive;
+    color: cornsilk;
+    font-size: 1.3rem;
+}
+
+
+

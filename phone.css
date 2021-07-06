@@ -1,0 +1,209 @@
+body{
+    background-color: azure;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar::before {
+    content: "";
+    background-color: blanchedalmond;
+    position: absolute;
+    height: 222%;
+    width: 283%;
+    z-index: -1;
+}
+#home::before {
+    content: "";
+    background: url(/images/pexels-godson-bright-962464.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 139%;
+    width: 499%;
+    z-index: -1;
+}
+#navbar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: rgb(128, 125, 131);
+    display: block;
+    padding: 27px 47px;
+    border-radius: 32px;
+    text-decoration: none;
+}
+#h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    padding: 12px;
+    margin: 32px -326px 10px 481px;
+    color: rgb(248, 96, 96);
+}
+#h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    margin: -147px 11px 12px 350px;
+    color: rgb(109, 94, 241);
+}
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 14px;
+    border: 3px solid white;
+    color: white;
+    background-color: black;
+    margin: 48px 26px -32px 833px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.offer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin: 33px 21px 42px 606px;
+}
+#item1 {
+    background-image: url(/images/d15528a….Golden-Temple-Amritsar-Punjab.jpg);
+    background-size: 100% 100%;
+    border: 2px solid black;
+    width: 23%;
+    height: 35%;
+    margin: 14px 81px -3px 52px;
+    padding: 151px 344px;
+    animation: slider 20s infinite linear;
+    border-radius: 5px;
+    box-shadow: 7px 13px 26px 20px whitesmoke;
+    @keyframes slider{
+        0%{
+            background: url('/images/4df8e81b934e450b9827e060fef2bfdc.Amarnath-Temple-Jammu-and-Kashmir.jpg');
+        }
+        20%{
+             background: url('/images/6d3a42804f7d7db641039534dd1284bc.Hemkund-Sahib-Yatra.jpg');
+        }
+        40%{
+           background: url('/images/9b202a59cf5d01c52c1fd18dd1233b24.main-ghat-at-varanasi-india.jpg');
+        }
+        60%{
+            background: url('/images/d15528a59ce451cc14c3ca29e5dbcd5f.Golden-Temple-Amritsar-Punjab.jpg');
+        }
+        80%{
+           background: url('/images/b37436de7ec5828b6006cc05bafa3ed7.Sun-Temple-in-Konark-Odisha.jpg');
+        }
+    
+}
+}
+#head1 {
+    margin: 17px 2px 14px -68px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 8px 0px;
+    display: block;
+}
+.btn2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 6px;
+    border: 3px solid white;
+    color: white;
+    background-color: black;
+    margin: 16px 7px -60px -47px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#item2 {
+    background-image: url(/images/acj-2211-most-romantic-honeymoon-destinations-in-india-1.jpg);
+    background-size: 100% 100%;
+    border: 2px solid black;
+    width: 23%;
+    height: 35%;
+    margin: 45px 81px 17px 52px;
+    padding: 134px 344px;
+    animation: slider2 20s infinite linear;
+    border-radius: 5px;
+    box-shadow: 7px 13px 26px 20px whitesmoke;
+}
+#head2 {
+    margin: -18px 2px 20px -49px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 8px 0px;
+    display: block;
+}
+#item3 {
+    background-image: url(/images/40019e6….Delhi-NCR.jpg);
+    background-size: 100% 100%;
+    border: 2px solid black;
+    width: 23%;
+    height: 35%;
+    margin: 14px 81px -17px 52px;
+    padding: 131px 337px;
+    animation: slider3 20s infinite linear;
+    border-radius: 5px;
+    box-shadow: 7px 13px 26px 20px whitesmoke;
+}
+#head3 {
+    margin: 16px 2px 14px -47px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 8px 0px;
+    display: block;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    margin: 61px -630px 30px 57px;
+    padding: 28px 25px;
+    background-color: black;
+}
+#part1 h1 {
+    color: orange;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+    margin: 28px 26px 10px 115px;
+}
+.thing h1 {
+    display: block;
+    margin: 54px -898px 40px 0px;
+    color: rgb(255, 47, 255);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.theme {
+    background-color: rgb(250, 123, 123);
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    margin: 15px -844px 27px 2px;
+}
+.theme1 {
+    padding: 63px 39px;
+    margin: 20px 64px 9px 2px;
+}
+.last li {
+    cursor: pointer;
+    display: block;
+    list-style: none;
+    padding: 19px 45px;
+    margin: 13px -1px 13px 6px;
+}
+.bottom {
+    background-color: rgb(250, 123, 123);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 2px -835px 3px 2px;
+}
+.bot {
+    padding: 19px 71px;
+    margin: -3px -8px 2px 2px;
+}
+#part2 img {
+    margin: 1px 2px 2px 60px;
+    height: 414px;
+    width: 491px;
+}
+
+
